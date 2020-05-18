@@ -51,6 +51,7 @@ DEPENDENCIES
   capistrano-passenger (~> 0.2.0)
   capistrano-rbenv (~> 2.1, >= 2.1.4)
   ed25519 (~> 1.2)
+  net-ssh (>= 6.0.2)
   sinatra
 
 BUNDLED WITH
