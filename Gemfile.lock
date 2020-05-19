@@ -22,7 +22,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  passenger
+  passenger (>= 5.0.25)
   sinatra
 
 BUNDLED WITH

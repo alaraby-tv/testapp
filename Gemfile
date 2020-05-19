@@ -7,4 +7,4 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "sinatra"
 
 # Use Passenger as app server:
-gem 'passenger'
+gem 'passenger', ">= 5.0.25", require: "phusion_passenger/rack_handler"
