@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require 'sinatra/reloader'
+# require 'sinatra/reloader'
 
 class MyApp < Sinatra::Base
   get '/' do
