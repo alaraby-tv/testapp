@@ -1,3 +1,3 @@
-require File.expand_path('app', File.join(File.dirname(__FILE__), 'lib'))
+require File.absolute_path('app.rb', 'lib') 
 
 run MyApp
