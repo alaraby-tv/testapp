@@ -40,6 +40,7 @@ GEM
     net-scp (3.0.0)
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (6.0.2)
+    pg (1.2.3)
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
@@ -72,6 +73,8 @@ DEPENDENCIES
   capistrano-rails (~> 1.4)
   capistrano-rbenv (~> 2.1, >= 2.1.4)
   ed25519 (>= 1.2, < 2.0)
+  pg
+  rake
   sinatra
   sinatra-activerecord
 
