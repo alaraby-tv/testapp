@@ -1,3 +1,3 @@
-require File.absolute_path('app.rb', 'lib') 
+require 'lib/app' 
 
 run MyApp
